@@ -2,6 +2,8 @@
 /.git*
 /.idea/workspace.xml
 .dockerignore
+.gitignore
+.gitattributes
 
 ### Other data
 storage/mysql-data
@@ -22,3 +24,20 @@ compose.yaml
 compose-test-ci.yaml
 compose-staging.yaml
 compose-prod.yaml
+
+### Readme
+README.md
+LICENSE
+CODE_OF_CONDUCT.md
+SECURITY.md
+
+### Formatting
+.editorconfig
+.php_cs
+.php_cs.cache
+.php_cs.php
+.php_cs.dist
+.pre-commit-config.yaml
+.prettierrc
+.prettier.config.js
+.prettierignore
