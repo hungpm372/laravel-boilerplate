@@ -7,7 +7,7 @@ composer install --no-interaction --prefer-dist --optimize-autoloader
 php artisan key:generate
 
 # Run database migrations
-#php artisan migrate --force
+php artisan migrate --force
 
 # Optimize Laravel
 php artisan optimize
