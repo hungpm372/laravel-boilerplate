@@ -30,12 +30,12 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                sh 'docker-compose -f ${DOCKER_COMPOSE_FILE} down'
-                sh 'docker-compose -f ${DOCKER_COMPOSE_FILE} up -d'
-            }
-        }
+        // stage('Deploy') {
+        //     steps {
+        //         sh 'docker-compose -f ${DOCKER_COMPOSE_FILE} down'
+        //         sh 'docker-compose -f ${DOCKER_COMPOSE_FILE} up -d'
+        //     }
+        // }
     }
 
     post {
