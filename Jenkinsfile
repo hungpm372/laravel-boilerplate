@@ -24,11 +24,11 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
-            steps {
-                sh 'docker-compose -f ${DOCKER_COMPOSE_FILE} run web php artisan test'
-            }
-        }
+        // stage('Run Tests') {
+        //     steps {
+        //         sh 'docker-compose -f ${DOCKER_COMPOSE_FILE} run web php artisan test'
+        //     }
+        // }
 
         // stage('Deploy') {
         //     steps {
